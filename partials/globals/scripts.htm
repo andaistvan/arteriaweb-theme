@@ -1,0 +1,19 @@
+description = "scripts"
+==
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/jquery.min.js"></script>
+
+<!-- THEME.JS : scripts INIT  -->
+<script src="{{ [
+      'assets/js/materialize.min.js',
+      'assets/js/theme.js'
+   ]|theme }}">
+</script>
+
+<!-- OCTOBER FRAMEWORK : AJAX etc.  -->
+{% framework extras %}
+
+<!-- ADDONS : wow, sticky.js etc.  -->
+{% partial "_addons/js" %}
+
+{% scripts %}
