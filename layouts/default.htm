@@ -3,6 +3,8 @@ description = "default layout"
 <html lang="hu">
 <head>
    {% partial "globals/meta" %}
+   {% partial "globals/stylesheet" %}
+   {% styles %}
 </head>
 <body>
 
@@ -13,6 +15,6 @@ description = "default layout"
 {% partial "globals/footer" %}
 
 {% partial "globals/scripts" %}
-
+{% scripts %}
 </body>
 </html>

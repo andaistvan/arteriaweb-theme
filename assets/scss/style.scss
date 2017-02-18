@@ -1,16 +1,8 @@
 @charset "UTF-8";
 
 // Reset
-@import "materialize/components/normalize";
 
-// Materialize FRAMEWORK
-@import "materialize/materialize";
-
-// Theme Sections Styling
-@import "theme/sections";
+// FRAMEWORK
 
 // Theme General Styling
 @import "theme/theme";
-
-// Custom Styling
-@import "theme/custom";
